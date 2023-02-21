@@ -2,6 +2,8 @@
 
 Really nice reverse engineering of the article cards displayed on the home page of [CSS Tricks](https://css-tricks.com/) done by [Fireship.io](https://fireship.io/).
 
+<br/>
+
 ## 🥡 Learning takeaways
 - Flexbox & Grid Layout
 - Thegeneral sibling combinator
