@@ -12,4 +12,4 @@ Really nice reverse engineering of the article cards displayed on the home page 
 
 <br/>
 
-![Screenshot of the finished UI](img/screenshot.png "Screen of the finished UI")
+![Screenshot of the finished UI](./public/img/screenshot.png "Screen of the finished UI")
