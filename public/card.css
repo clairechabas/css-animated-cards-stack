@@ -16,7 +16,7 @@ a {
   display: flex;
   padding: 3rem;
 
-  /* Styling the scrollbar */
+  /* Styling the container scrollbar */
   overflow-x: scroll;
 }
 
@@ -60,10 +60,10 @@ a {
 .card:hover {
   transform: translateY(-1rem);
 }
-.card:hover ~ .card,
-.card:focus-within ~ .card {
+.card:focus-within ~ .card,
+.card:hover ~ .card {
   /* Selects all siblings after the hovered element */
-  transform: translateX(-130px);
+  transform: translateX(130px);
 }
 .card:not(:first-child) {
   margin-left: -130px;
@@ -73,6 +73,13 @@ a {
 .card-header {
   margin-bottom: auto;
 }
+
+.card-header p {
+  font-size: 14px;
+  margin: 0 0 1rem;
+  color: #7a7a8c;
+}
+
 .card-header h2 {
   font-size: 20px;
   margin: 0.25rem 0 auto;
@@ -130,7 +137,7 @@ a {
 
 .half-circle {
   position: absolute;
-  botton: 0;
+  bottom: 0;
   left: 0;
   width: 60px;
   height: 48px;
