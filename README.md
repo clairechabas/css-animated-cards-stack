@@ -9,3 +9,7 @@ Really nice reverse engineering of the article cards displayed on the home page 
 - Applying gradient color to text
 - Animation
 - SVG
+
+<br/>
+
+![Screenshot of the finished UI](/public/screenshot.png "Screen of the finished UI")
